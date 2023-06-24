@@ -1,0 +1,21 @@
+.header {
+  background: linear-gradient(to right, black, black);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  top: 270px; /* Ajusta la posición vertical según sea necesario */
+  border-top: 1px solid rgba(255, 255, 255, 0.589); /* Agrega la línea delgada blanca encima del encabezado */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.header-content {
+  max-width: 1200px; /* Ajusta el ancho máximo del contenido según sea necesario */
+  margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+.header-title {
+  font-size: 17px; /* Ajusta el tamaño de la letra según sea necesario */
+  margin: 0; /* Elimina el margen predeterminado del título */
+  
+}
