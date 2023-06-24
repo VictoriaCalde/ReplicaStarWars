@@ -1,4 +1,49 @@
-.white-icon {
-  color: white;
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  background-color: black;
 }
 
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  min-height: 100vh;
+  margin: 200px auto 0;
+  padding: 2em 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
+  background-size: 85% 100%;
+}
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 60px; /* Ajusta la altura según sea necesario */
+  width: 200px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
