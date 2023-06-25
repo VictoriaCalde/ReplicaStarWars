@@ -1,0 +1,75 @@
+.navbar {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+
+ }
+  
+  .navbar-brand-divider {
+    position: relative;
+  }
+  
+  .navbar-brand-divider:after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 16px;
+    background-color: white;
+    margin-left: 8px;
+  }
+
+  .collapse.navbar-collapse {
+    margin-left: 50px;
+  }
+
+  .star-wars-div {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .star-wars-div img {
+    width: 200px; /* Ajusta el ancho de la imagen según sea necesario */
+    filter: invert(1); /* Invierte los colores de la imagen para que aparezca blanca en fondo negro */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .container a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .container a:first-child {
+    margin-left: 0;
+  }
+  
+  
+
+
+
+  
+  
+  

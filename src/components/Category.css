@@ -1,0 +1,33 @@
+
+.navbar-category{
+    background: linear-gradient(to right, black, black);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    top: 60px; /* Ajusta la posición vertical según sea necesario */
+
+}
+  .navbar-category .navbar-nav .nav-link {
+    margin-right: 25px;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-right: 15px; /* Ajusta el espaciado horizontal entre los elementos */
+  }
+  
+  .nav-link {
+    color: #ffffff;
+  }
+  
+  
