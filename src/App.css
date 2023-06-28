@@ -37,13 +37,3 @@ main {
   align-items: center;
 }
 
-.navigation-bar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 60px; /* Ajusta la altura según sea necesario */
-  width: 200px;
-  background-color: black;
-  color: white;
-  padding: 20px;
-}

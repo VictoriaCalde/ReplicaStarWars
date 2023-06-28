@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faYoutube, faTwitter} from '@fortawesome/free-brands-svg-icons';
 
 
-const NavigationBar = () => {
+const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-black container-fluid">
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,4 +46,4 @@ const NavigationBar = () => {
   );
 };
 
-export default NavigationBar;
+export default Navbar;

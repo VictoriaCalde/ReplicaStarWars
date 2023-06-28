@@ -1,11 +1,13 @@
 
 .navbar-category{
     background: linear-gradient(to right, black, black);
+    z-index: 1; /* Ajusta el valor del z-index según sea necesario */
     color: rgb(255, 255, 255);
     padding: 20px;
     width: 100%;
     position: relative;
     top: 60px; /* Ajusta la posición vertical según sea necesario */
+  
 
 }
   .navbar-category .navbar-nav .nav-link {

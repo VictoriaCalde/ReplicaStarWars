@@ -1,21 +1,43 @@
 .header {
+  position: relative;
   background: linear-gradient(to right, black, black);
   color: rgb(255, 255, 255);
   padding: 20px;
   width: 100%;
-  position: relative;
-  top: 270px; /* Ajusta la posición vertical según sea necesario */
-  border-top: 1px solid rgba(255, 255, 255, 0.589); /* Agrega la línea delgada blanca encima del encabezado */
-  text-align: center; /* Centra el texto horizontalmente */
-}
-
-.header-content {
-  max-width: 1200px; /* Ajusta el ancho máximo del contenido según sea necesario */
-  margin: 0 auto; /* Centra el contenido horizontalmente */
-}
-
-.header-title {
-  font-size: 17px; /* Ajusta el tamaño de la letra según sea necesario */
-  margin: 0; /* Elimina el margen predeterminado del título */
+  border-top: 4px solid rgba(240, 240, 240, 0.418);
+  text-align: center;
+  top: 15px;
   
+}
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.title-text {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  /* Ajusta el margen superior según sea necesario */
+}
+
+.mobile-title-text {
+  display: block;
+  color: #fff;
+}
+
+.non-mobile-title-text {
+  display: none;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .mobile-title-text {
+    display: none;
+  }
+
+  .non-mobile-title-text {
+    display: block;
+    color: #fff;
+  }
 }
