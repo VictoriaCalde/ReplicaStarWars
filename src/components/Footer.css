@@ -1,0 +1,46 @@
+.social-prompt {
+    color: white;
+    text-align: center;
+  }
+  
+
+  .horizontal-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .horizontal-list ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .horizontal-list li {
+    margin: 0 20px;
+  }
+  
+  .horizontal-list a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .horizontal-list i {
+    margin-right: 5px;
+  }
+  
+  .horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .horizontal li {
+    margin: 0 10px;
+  }
+  
+  .horizontal a {
+    color: white;
+  }
+  

@@ -5,6 +5,7 @@ import Category from "./components/Category";
 import Carousel from "./components/Carousel";
 import React from "react";
 import "./App.css";
+import Footer from "./components/Footer";
 
 
 
@@ -15,7 +16,7 @@ function App() {
       <Category/>
       <Header />
       <Carousel/>
-     
+      <Footer/>
      
       
     
