@@ -1,41 +1,223 @@
-/* Carousel.css */
-
 .carousel-container {
-  max-height: 950px; /* Ajusta la altura según tus necesidades */
+  max-height: 100vh;
   overflow: hidden;
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-.carousel-wrapper {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 2000px;
+
+/*miniaturas*/
+.carousel .thumbs-wrapper {
+  margin-top: -100px;
+  margin-right: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
 }
 
-.carousel-wrapper img {
-  max-height: 950px; /* Ajusta la altura máxima según tus necesidades */
-  width: auto;
-  margin: 0 auto;
+.carousel .thumbs-wrapper .thumb {
+  flex-basis: 100w;
+  height: 5vw;
+  margin-bottom: 1vw;
+  cursor: pointer;
+  
 }
 
-.carousel-overlay {
-  position: absolute;
-  bottom: 250px; /* Mueve el botón 20px hacia abajo desde la parte inferior */
-  right: 250px; /* Mueve el botón 20px hacia la derecha */
+.carousel .thumbs-wrapper .thumb.selected {
+  border: 2px solid #ffdf00;
+}
+
+.carousel .thumbs-wrapper .thumb img {
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: flex-end; /* Alinea el contenido a la derecha */
-  align-items: flex-end; /* Alinea el contenido hacia abajo */
+  object-fit: cover;
 }
 
-.carousel-button {
-  padding: 10px 20px;
+.carousel-overlay.overlay-image1 .logo-title {
+  position: absolute;
+  top: 20%;
+  right: 12vw;
+  width: 25vw;
+  height: 7vw;
+}
+
+.carousel-overlay.overlay-image1 .content-description {
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  line-height: 1.2;
+}
+
+.carousel-overlay .cta-links-container .cta-item {
+  margin: 0 5px;
+}
+
+.carousel-overlay .cta-links-container .cta-item .button {
   background-color: yellow;
   color: black;
-  font-size: 16px;
-  border: none;
-  border-radius: 20px;
+  border-radius: 50px;
+  padding: 1vw 2vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.carousel-overlay.overlay-image1 .cta-links-container {
+  top: 65%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  bottom: 5%;
+  transform: translateX(-50%);
+  left: 77%;
+}
+
+.carousel-overlay.overlay-image1 .cta-links-container .cta-item[data-title="Explore"] .cta-link {
+  background-color: black;
+  border: 2px solid yellow;
+  color: white;
+}
+
+
+.carousel-overlay.overlay-image2 .logo-title {
+  width: 15vw;
+  height: 14.4vw;
+  position: absolute;
+  top: 7%;
+  left: 17vw;
+}
+
+.carousel-overlay.overlay-image2 .content-description {
+  color: white;
+  font-size: 1.7vw;
+  font-weight: bold;
+  text-align: center;
+  width: 60%;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  line-height: 1.2;
+}
+
+.carousel-overlay.overlay-image2 .cta-links-container {
+  top: 72%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  bottom: 5%;
+  left: 30%;
+  transform: translateX(-50%);
+}
+
+.carousel-overlay.overlay-image2 .cta-links-container .cta-item[data-title="Get Tickets"] .cta-link {
+  background-color: black;
+  border: 2px solid yellow;
+  color: white;
+}
+
+.carousel-overlay.overlay-image3 .content-title {
+  color: white;
+  font-size: 2.6vw;
+  font-weight: bold;
+  text-align: left;
+  width: 60%;
+  position: absolute;
+  top: 30%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  line-height: 1.2;
+  
+}
+
+.carousel-overlay.overlay-image3 .content-description {
+  color: white;
+  font-size: 1.6vw;
+  font-weight: bold;
+  text-align: left;
+  width: 60%;
+  position: absolute;
+  top: 58%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  line-height: 1.2;
+ 
+}
+
+.carousel-overlay.overlay-image3 .cta-links-container {
+  justify-content: flex-start;
+  font-size: 1.5vw;
+  top: 68%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  bottom: 5%;
+  left: 20%;
+  transform: translateX(-50%);
+}
+
+.carousel-overlay.overlay-image4 .logo-title {
+  width: 20vw;
+  height: 14.5vw;
+  position: absolute;
+  top: 15%;
+  left: 8vw;
+}
+
+.carousel-overlay.overlay-image4 .content-description {
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: center;
+  width: 65%;
+  position: absolute;
+  top: 63%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  line-height: 1.2;
+}
+
+.carousel-overlay.overlay-image4 .cta-links-container {
+  justify-content: flex-start;
+  font-size: 2vw;
+  top: 75%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  bottom: 5%;
+  left: 20%;
+  transform: translateX(-50%);
 }

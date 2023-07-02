@@ -16,7 +16,6 @@ function App() {
       <Category />
       <Header />
       <Carousel />
-      <Category />
       <Footer />
 
       
