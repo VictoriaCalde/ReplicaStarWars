@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Category from "./components/Category";
 import Carousel from "./components/Carousel";
+import Carousel2 from "./components/Carousel2";
 import Carousel3 from "./components/Carousel3";
 
 //import DisneyGallery from "./components/DisneyGallery";
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Category />
       <Carousel />
+      <Carousel2/>
       <Carousel3 />
       <Footer />
 
