@@ -1,20 +1,16 @@
-.carousel-container {
+.carousel1-container {
   max-height: 100vh;
   overflow: hidden;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  margin-top: 7%;
 }
 
-
-/*miniaturas*/
 .carousel .thumbs-wrapper {
   margin-top: -100px;
   margin-right: 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-
 }
 
 .carousel .thumbs-wrapper .thumb {
@@ -22,7 +18,6 @@
   height: 5vw;
   margin-bottom: 1vw;
   cursor: pointer;
-  
 }
 
 .carousel .thumbs-wrapper .thumb.selected {
@@ -91,7 +86,6 @@
   color: white;
 }
 
-
 .carousel-overlay.overlay-image2 .logo-title {
   width: 15vw;
   height: 14.4vw;
@@ -150,7 +144,6 @@
   justify-content: center;
   height: 3em;
   line-height: 1.2;
-  
 }
 
 .carousel-overlay.overlay-image3 .content-description {
@@ -169,7 +162,6 @@
   justify-content: center;
   height: 3em;
   line-height: 1.2;
- 
 }
 
 .carousel-overlay.overlay-image3 .cta-links-container {
@@ -220,4 +212,38 @@
   bottom: 5%;
   left: 20%;
   transform: translateX(-50%);
+}
+
+/*HEADER*/
+.carousel1-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 2;
+  margin-top: 2%;
+}
+.title1-container {
+  display: inline-block;
+  position: relative;
+  margin-top: 10%;
+
+}
+.title1-text {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header1-line {
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top: 1px solid #fff;
+  width: calc(100vw - 40px);
+  /* Resta 40px para tener en cuenta el padding horizontal del carousel1-header */
 }
