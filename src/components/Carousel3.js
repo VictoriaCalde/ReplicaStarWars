@@ -10,7 +10,7 @@ import imagen6 from "../components/imagenes/marvel-obi-wan-kenobi-series-comic-r
 import imagen7 from "../components/imagenes/star-wars-insider-219-article-feature_8a550828.jpeg";
 import imagen8 from "../components/imagenes/fan-spotlight-father-son-galaxy_840013ac.jpeg";
 import imagen9 from "../components/imagenes/marvel-the-mandalorian-season-2-issue-1_article-feature_5342792e.jpeg";
-import "./Carousel3.css";
+import "./LastCarousels.css";
 
 const CarouselComponent = () => {
   const responsive = {

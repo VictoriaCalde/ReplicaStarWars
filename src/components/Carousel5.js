@@ -7,7 +7,7 @@ import imagen3 from "../components/imagenes/thr-franchise-slider_6d73dcd2.jpeg";
 import imagen4 from "../components/imagenes/franchise-slider-swce23_5c8c2aed.jpeg";
 import imagen5 from "../components/imagenes/bottom-slider-logos_5d5563d4.jpeg";
 import imagen6 from "../components/imagenes/ffc-bottom-slider_6666c49b.jpeg";
-import "./Carousel4.css";
+import "./LastCarousels.css";
 
 const Carousel5 = () => {
     const responsive = {
@@ -32,7 +32,7 @@ const Carousel5 = () => {
         {
             src: imagen1,
             details: (
-                <div className="entity-details text-left visible">
+                <div className="entity-details5 text-left visible">
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -42,15 +42,16 @@ const Carousel5 = () => {
                         data-title="Beat the Tatooine Heat with StarWars.com’s Summer Viewing Guide"
                         tabIndex="-1"
                     >
+                    <div className="notch-contain5"></div>
                     </a>
-                    <div className="notch-contain"></div>
+                  
                 </div>
             ),
         },
         {
             src: imagen2,
             details: (
-                <div className="entity-details text-left visible">
+                <div className="entity-details5 text-left visible">
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -60,15 +61,16 @@ const Carousel5 = () => {
                         data-title="Harrison Ford Reflects on Playing Indiana Jones, New Adventures Come to the Disney Parks, and More!"
                         tabIndex="-1"
                     >
+                    <div className="notch-contain5"></div>
                     </a>
-                    <div className="notch-contain"></div>
+                 
                 </div>
             ),
         },
         {
             src: imagen3,
             details: (
-                <div className="entity-details text-left visible">
+                <div className="entity-details5 text-left visible">
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -78,15 +80,16 @@ const Carousel5 = () => {
                         data-title="The Mandalorian | Disney Gallery"
                         tabIndex="-1"
                     >
+                    <div className="notch-contain5"></div>
                     </a>
-                    <div className="notch-contain"></div>
+                    
                 </div>
             ),
         },
         {
             src: imagen4,
             details: (
-                <div className="entity-details text-left visible">
+                <div className="entity-details5 text-left visible">
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -96,15 +99,16 @@ const Carousel5 = () => {
                         data-title="Indiana Jones is Back in Action, John Williams Performs, and More!"
                         tabIndex="-1"
                     >
+                    <div className="notch-contain5"></div>
                     </a>
-                    <div className="notch-contain"></div>
+                    
                 </div>
             ),
         },
         {
             src: imagen5,
             details: (
-                <div className="entity-details text-left visible">
+                <div className="entity-details5 text-left visible">
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -114,15 +118,16 @@ const Carousel5 = () => {
                         data-title="Official Gameplay Walkthrough | Star Wars Outlaws"
                         tabIndex="-1"
                     >
+                    <div className="notch-contain5"></div>
                     </a>
-                    <div className="notch-contain"></div>
+                 
                 </div>
             ),
         },
         {
             src: imagen6,
             details: (
-                <div className="entity-details text-left visible">
+                <div className="entity-details5 text-left visible">
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -132,8 +137,9 @@ const Carousel5 = () => {
                         data-title="World Premiere Trailer | Star Wars Outlaws"
                         tabIndex="-1"
                     >
+                    <div className="notch-contain5"></div>
                     </a>
-                    <div className="notch-contain"></div>
+                  
                 </div>
             ),
         },
@@ -154,14 +160,14 @@ const Carousel5 = () => {
 
             <Carousel responsive={responsive} infinite>
                 {images.map((image, index) => (
-                    <div key={index} className="carousel-item">
+                    <div key={index} className="carousel5-item">
                         <img
                             src={image.src}
                             alt={`Imagen ${index + 1}`}
                             className="carousel-image"
                         />
                         {image.details && (
-                            <div className="entity-details">
+                            <div className="entity-details5">
                                 <div className="decal-contain">
                                     <div className="decal"></div>
                                 </div>

@@ -9,7 +9,7 @@ import imagen5 from "../components/imagenes/kay_nd5_wide_thumbnail_7ac38cfb (1).
 import imagen6 from "../components/imagenes/image_9c63d62b (1).jpeg";
 import imagen7 from "../components/imagenes/image_0abee5f2 (1).jpeg";
 import imagen8 from "../components/imagenes/image_dab64477 (1).jpeg";
-import "./Carousel4.css";
+import "./LastCarousels.css";
 
 const Carousel4 = () => {
   const responsive = {
@@ -226,7 +226,7 @@ const Carousel4 = () => {
 
       <Carousel responsive={responsive} infinite>
         {images.map((image, index) => (
-          <div key={index} className="carousel-item">
+          <div key={index} className="carousel4-item">
             <img
               src={image.src}
               alt={`Imagen ${index + 1}`}
