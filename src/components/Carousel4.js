@@ -1,14 +1,14 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import imagen1 from "../components/imagenes/image_15dae74c.jpeg";
-import imagen2 from "../components/imagenes/image_802cdb9b.jpeg";
-import imagen3 from "../components/imagenes/image_72f8ff1b.jpeg";
-import imagen4 from "../components/imagenes/image_a9bcb52f.jpeg";
-import imagen5 from "../components/imagenes/kay_nd5_wide_thumbnail_7ac38cfb.jpeg";
-import imagen6 from "../components/imagenes/image_9c63d62b.jpeg";
-import imagen7 from "../components/imagenes/image_0abee5f2.jpeg";
-import imagen8 from "../components/imagenes/image_dab64477.jpeg";
+import imagen1 from "../components/imagenes/image_15dae74c (1).jpeg";
+import imagen2 from "../components/imagenes/image_802cdb9b (1).jpeg";
+import imagen3 from "../components/imagenes/image_72f8ff1b (1).jpeg";
+import imagen4 from "../components/imagenes/image_a9bcb52f (1).jpeg";
+import imagen5 from "../components/imagenes/kay_nd5_wide_thumbnail_7ac38cfb (1).jpeg";
+import imagen6 from "../components/imagenes/image_9c63d62b (1).jpeg";
+import imagen7 from "../components/imagenes/image_0abee5f2 (1).jpeg";
+import imagen8 from "../components/imagenes/image_dab64477 (1).jpeg";
 import "./Carousel4.css";
 
 const Carousel4 = () => {
