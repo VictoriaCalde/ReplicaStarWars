@@ -218,9 +218,21 @@ const Carousel2 = () => {
     ];
 
     return (
-        <div className="aspect">
-            <img tabindex="0" data-src="https://lumiere-a.akamaihd.net/v1/images/ahsoka-series-hero-desktop_e5d97bd5.jpeg?region=0,0,1200,510" id="ref-1-3--img--idx-0" width="1600" height="600" data-width="1600" data-height="600" data-aspect_ratio="0.375" data-orientation="landscape" data-legacy="true" src="https://lumiere-a.akamaihd.net/v1/images/ahsoka-series-hero-desktop_e5d97bd5.jpeg?region=0,0,1200,510&width=600" ></img>
-            <div className="carousel2-wrapper">
+        <div className="aspect" >
+
+            <img
+                tabindex="0"
+                data-src="https://lumiere-a.akamaihd.net/v1/images/ahsoka-series-hero-desktop_e5d97bd5.jpeg?region=0,0,1200,510"
+                id="ref-1-3--img--idx-0"
+                alt="Ahsoka Tano"
+                data-aspect_ratio="0.425"
+                data-orientation="landscape"
+                data-legacy="true"
+                src="https://lumiere-a.akamaihd.net/v1/images/ahsoka-series-hero-desktop_e5d97bd5.jpeg?region=0,0,1200,510"
+                style={{ position: 'absolute', zIndex: '-1', width: '100%', height: 'auto' }}
+            />
+            <div className="carousel2-wrapper" style={{ marginTop: '500px' }}>
+
                 <Carousel responsive={responsive} infinite>
                     {images.map((image, index) => (
                         <div key={index} className="carousel-item">
