@@ -231,7 +231,56 @@ const Carousel2 = () => {
                 src="https://lumiere-a.akamaihd.net/v1/images/ahsoka-series-hero-desktop_e5d97bd5.jpeg?region=0,0,1200,510"
                 style={{ position: 'absolute', zIndex: '-1', width: '100%', height: 'auto' }}
             />
-            <div className="carousel2-wrapper" style={{ marginTop: '500px' }}>
+
+            <div class="content-overlay   content-left content-middle  text-center   text-light mt-5" style={{ marginLeft: '50px' }}>
+                <div class="content-body">
+                    <div class="content-details" style={{ maxWidth: '36%' }}>
+                        <div class="content-title ">
+                            <img class="logo-title" width="600" height="193" data-src="https://lumiere-a.akamaihd.net/v1/images/ahsoka-logo-desktop_083fbe8d.png?region=0,0,600,193" alt="Ahsoka Logo" tabindex="0" style={{ width: '400px' }} data-width="600" data-height="193" data-aspect_ratio="0.3217" data-orientation="landscape" data-legacy="true" src="https://lumiere-a.akamaihd.net/v1/images/ahsoka-logo-desktop_083fbe8d.png?region=0,0,600,193"></img>
+                        </div>
+                        <div class="content-description mt-2" tabindex="0" style={{
+                            fontSize: '20px',
+                            fontWeight: 'bold',
+                            color: 'white',
+                            marginTop: '-5%',
+                            overflow: 'hidden',
+                            textOverflow: 'ellipsis'
+                        }}>
+                            <p style={{ marginBottom: '0em' }}>
+                                Ahsoka Tano investigates an emerging</p>
+                            <p style={{ marginBottom: '0em' }}> threat to the galaxy. Original series </p>
+                            <p style={{ marginBottom: '0em' }}> streaming August 23, only on Disney+.
+                            </p>
+                        </div>
+                        <p className="cta-links-container mt-4">
+                            <span className="cta-item" data-title="Explore">
+                            <a
+  href="https://www.starwars.com/series/star-wars-ahsoka"
+  role="button"
+  style={{
+    backgroundColor: '#ffdf00',
+    border: 'none',
+    borderRadius: '50px',
+    color: 'black',
+    fontSize: '20px',
+    fontWeight: 'bold',
+    textDecoration: 'none',
+    display: 'inline-block',
+    padding: '10px 40px',
+  }}
+>
+  Explore
+</a>
+
+
+                            </span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div className="carousel2-wrapper" style={{ marginTop: '100px' }}>
 
                 <Carousel responsive={responsive} infinite>
                     {images.map((image, index) => (
