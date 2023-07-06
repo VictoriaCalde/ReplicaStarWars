@@ -19,17 +19,18 @@
   max-width: 98%;
   height: auto;
   margin-left: 2%;
+
 }
+
 .carousel4-item img {
   margin: 0 10px;
   width: 98%;
 
 }
-.carousel5-item img {
+.carousel5-item img  {
   margin: 0 10px;
-  width: 98.5%;
+  width: 98.5%; 
   height: 300px;
-
 }
 
 /*header*/
