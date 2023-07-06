@@ -9,10 +9,10 @@ import imagen4 from "../components/imagenes/disney-gallery-the-mandalorian-s3-mo
 
 const CarouselComponent = () => {
   return (
-    <div className="carousel1-container">
+    <div className="carousel1-container ">
       <div className="carousel-wrapper">
         <div className="carousel1-header">
-          <div className="title1-container">
+          <div className="title1-container " style={{ marginTop: '177px' }}>
             <div className="header1-line"></div>
             <span className="title1-text">
               ALL OF YOUR STAR WARS FAVORITES NOW STREAMING ON DISNEY+

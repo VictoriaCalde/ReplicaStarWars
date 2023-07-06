@@ -13,22 +13,23 @@ const Navbar = () => {
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse mt-2" id="navbarTogglerDemo01">
-        <a className="navbar-brand text-white" href="#">
+      <div className="collapse navbar-collapse mt-2" >
+        <a className="navbar-brand text-white" href="https://www.facebook.com/StarWars">
           <FontAwesomeIcon icon={faFacebookF} />
         </a>
-        <a className="navbar-brand text-white" href="#">
+        <a className="navbar-brand text-white" href="https://www.instagram.com/starwars/">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
-        <a className="navbar-brand text-white" href="#">
+        <a className="navbar-brand text-white" href="https://www.youtube.com/user/starwars">
           <FontAwesomeIcon icon={faYoutube} />
         </a>
-        <a className="navbar-brand text-white navbar-brand-divider" href="#">
+        <a className="navbar-brand text-white navbar-brand-divider" href="https://twitter.com/i/flow/login?redirect_after_login=%2Fstarwars">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
 
         <div class="container mt-2">
           <a className="navbar-brand text-white" href="#">
+        
             SEARCH
           </a>
           <a className="navbar-brand text-white" href="#">

@@ -40,8 +40,8 @@
   }
   
   .star-wars-div img {
-    width: 200px; /* Ajusta el ancho de la imagen según sea necesario */
-    filter: invert(1); /* Invierte los colores de la imagen para que aparezca blanca en fondo negro */
+    width: 200px; 
+    filter: invert(1); 
   }
   
   .container {
