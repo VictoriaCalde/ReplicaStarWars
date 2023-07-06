@@ -6,35 +6,31 @@ import "./Category.css";
 const Category = () => {
     return (
         <nav className="navbar-category navbar-expand-lg navbar-dark bg-dark mt-4">
-
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
             <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                        <a className="nav-link text-white" href="#"> NEWS + FEATURES </a>
+                        <a className="nav-link text-white "  href="https://www.starwars.com/news"> NEWS + FEATURES </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white " href="#">VIDEO</a>
+                        <a className="nav-link text-white " href="https://www.starwars.com/video">VIDEO</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">FILMS</a>
+                        <a className="nav-link text-white" href="https://www.starwars.com/films">FILMS</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">SERIES</a>
+                        <a className="nav-link text-white" href="https://www.starwars.com/series">SERIES</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">INTERACTIVE</a>
+                        <a className="nav-link text-white" href="https://www.starwars.com/interactive">INTERACTIVE</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">COMMUNITY</a>
+                        <a className="nav-link text-white" href="https://www.starwars.com/community">COMMUNITY</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">DATABANK</a>
+                        <a className="nav-link text-white" href="https://www.starwars.com/databank">DATABANK</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">DISNEY+</a>
+                        <a className="nav-link text-white" href="https://www.starwars.com/disneyplus">DISNEY+</a>
                     </li>
                 </ul>
             </div>
