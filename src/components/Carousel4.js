@@ -35,20 +35,22 @@ const Carousel4 = () => {
       src: imagen1,
       details: (
         <div className="entity-details text-left visible">
+        <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
+          
           <a
             href="https://www.starwars.com/video/this-or-hat-indiana-jones-101-and-more"
             className="entity-link title-link show-details"
-            data-title="Beat the Tatooine Heat with StarWars.com’s Summer Viewing Guide"
+            data-title="This or Hat, Indiana Jones 101, and More"
             tabIndex="-1"
           >
             <h3 className="title no_focus">
+
               <span> This or Hat, Indiana Jones 101, and More! </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -56,6 +58,7 @@ const Carousel4 = () => {
       src: imagen2,
       details: (
         <div className="entity-details text-left visible">
+        <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -71,7 +74,6 @@ const Carousel4 = () => {
               </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -79,6 +81,7 @@ const Carousel4 = () => {
       src: imagen3,
       details: (
         <div className="entity-details text-left visible">
+        <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -100,6 +103,7 @@ const Carousel4 = () => {
       src: imagen4,
       details: (
         <div className="entity-details text-left visible">
+        <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -113,7 +117,6 @@ const Carousel4 = () => {
               <span> Indiana Jones is Back in Action, John Williams Performs, and More! </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -121,6 +124,7 @@ const Carousel4 = () => {
       src: imagen5,
       details: (
         <div className="entity-details text-left visible">
+        <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -134,7 +138,6 @@ const Carousel4 = () => {
               <span> Official Gameplay Walkthrough | Star Wars Outlaws </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -142,6 +145,7 @@ const Carousel4 = () => {
       src: imagen6,
       details: (
         <div className="entity-details text-left visible">
+        <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -155,7 +159,6 @@ const Carousel4 = () => {
               <span> World Premiere Trailer | Star Wars Outlaws </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -163,6 +166,7 @@ const Carousel4 = () => {
       src: imagen7,
       details: (
         <div className="entity-details text-left visible">
+        <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -178,7 +182,6 @@ const Carousel4 = () => {
               </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -186,6 +189,7 @@ const Carousel4 = () => {
       src: imagen8,
       details: (
         <div className="entity-details text-left visible">
+        <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -199,7 +203,6 @@ const Carousel4 = () => {
               <span> "Begin" | Ahsoka </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
