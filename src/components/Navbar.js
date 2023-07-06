@@ -3,7 +3,7 @@ import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faYoutube, faTwitter} from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faInstagram, faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 
 const Navbar = () => {
@@ -26,10 +26,13 @@ const Navbar = () => {
         <a className="navbar-brand text-white navbar-brand-divider" href="https://twitter.com/i/flow/login?redirect_after_login=%2Fstarwars">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
+        <a class="link aw-independent" style={{ marginTop: '-4px' }} href="https://starwarskids.com/" target="_blank" rel="noopener noreferrer">
+          <img src="https://lumiere-a.akamaihd.net/v1/images/sw_nav_kids_937ed58b.svg?region=0%2C0%2C40%2C15" alt="Star Wars Kids"></img>
+        </a>
 
         <div class="container mt-2">
           <a className="navbar-brand text-white" href="#">
-        
+
             SEARCH
           </a>
           <a className="navbar-brand text-white" href="#">

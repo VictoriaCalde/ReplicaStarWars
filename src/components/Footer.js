@@ -9,28 +9,28 @@ const Footer = () => {
             <div class="horizontal-list">
                 <ul class="mt-2">
                     <li class="facebook social-icon">
-                        <a className="navbar-brand text-white" href="#">
+                        <a className="navbar-brand text-white" href="https://www.facebook.com/StarWars">
                             <FontAwesomeIcon icon={faFacebookF} />
                         </a>
                     </li>
                     <li class="instagram social-icon">
-                        <a className="navbar-brand text-white" href="#">
+                        <a className="navbar-brand text-white" href="https://www.instagram.com/starwars/">
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
                     </li>
                     <li class="twitter social-icon">
-                        <a className="navbar-brand text-white " href="#">
+                        <a className="navbar-brand text-white " href="https://www.youtube.com/user/starwars">
                             <FontAwesomeIcon icon={faTwitter} />
                         </a>
                     </li>
                     <li class="youtube social-icon">
-                        <a className="navbar-brand text-white navbar-brand-divider" href="#">
+                        <a className="navbar-brand text-white navbar-brand-divider" href="https://twitter.com/i/flow/login?redirect_after_login=%2Fstarwars">
                             <FontAwesomeIcon icon={faYoutube} />
                         </a>
                     </li>
                     <li class="kids social-icon">
-                        <a class="link aw-independent link_footer" href="https://starwarskids.com/" target="_blank" rel="noopener noreferrer">
-                            <i class="fas fa-child"></i><span class="description">SWKids</span>
+                        <a class="link aw-independent" href="https://starwarskids.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/sw_nav_kids_937ed58b.svg?region=0%2C0%2C40%2C15" alt="Star Wars Kids"></img>
                         </a>
                     </li>
                 </ul>
@@ -81,9 +81,9 @@ const Footer = () => {
                         </li>
                         <li>
                             <a href="https://privacyportal-de.onetrust.com/webform/64f077b5-2f93-429f-a005-c0206ec0738e/0a4f1f0b-7130-421f-971d-ef578c0bce6d" target="_blank" rel="noopener noreferrer" class="link_footer aw-independent">
-                            Do Not Sell My Personal Information
+                                Do Not Sell My Personal Information
                             </a>
-                            
+
                         </li>
                     </ul>
                 </nav>
