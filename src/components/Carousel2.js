@@ -37,6 +37,7 @@ const Carousel2 = () => {
             src: imagen1,
             details: (
                 <div className="entity-details text-left visible">
+                    <div className="notch-contain5 mt-2"></div>
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -52,7 +53,6 @@ const Carousel2 = () => {
                             </span>
                         </h3>
                     </a>
-                    <div className="notch-contain"></div>
                 </div>
             ),
         },
@@ -60,6 +60,7 @@ const Carousel2 = () => {
             src: imagen2,
             details: (
                 <div className="entity-details text-left visible">
+                    <div className="notch-contain5 mt-2"></div>
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -75,7 +76,6 @@ const Carousel2 = () => {
                             </span>
                         </h3>
                     </a>
-                    <div className="notch-contain"></div>
                 </div>
             ),
         },
@@ -83,6 +83,7 @@ const Carousel2 = () => {
             src: imagen3,
             details: (
                 <div className="entity-details text-left visible">
+                        <div className="notch-contain5 mt-2"></div>
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -98,7 +99,6 @@ const Carousel2 = () => {
                             </span>
                         </h3>
                     </a>
-                    <div className="notch-contain"></div>
                 </div>
             ),
         },
@@ -106,6 +106,7 @@ const Carousel2 = () => {
             src: imagen4,
             details: (
                 <div className="entity-details text-left visible">
+                        <div className="notch-contain5 mt-2"></div>
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -121,7 +122,6 @@ const Carousel2 = () => {
                             </span>
                         </h3>
                     </a>
-                    <div className="notch-contain"></div>
                 </div>
             ),
         },
@@ -129,6 +129,7 @@ const Carousel2 = () => {
             src: imagen5,
             details: (
                 <div className="entity-details text-left visible">
+                        <div className="notch-contain5 mt-2"></div>
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -145,7 +146,6 @@ const Carousel2 = () => {
                             </span>
                         </h3>
                     </a>
-                    <div className="notch-contain"></div>
                 </div>
             ),
         },
@@ -153,6 +153,7 @@ const Carousel2 = () => {
             src: imagen6,
             details: (
                 <div className="entity-details text-left visible">
+                        <div className="notch-contain5 mt-2"></div>
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -168,7 +169,6 @@ const Carousel2 = () => {
                             </span>
                         </h3>
                     </a>
-                    <div className="notch-contain"></div>
                 </div>
             ),
         },
@@ -176,6 +176,7 @@ const Carousel2 = () => {
             src: imagen7,
             details: (
                 <div className="entity-details text-left visible">
+                        <div className="notch-contain5 mt-2"></div>
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -190,7 +191,6 @@ const Carousel2 = () => {
 
                         </h3>
                     </a>
-                    <div className="notch-contain"></div>
                 </div>
             ),
         },
@@ -198,6 +198,7 @@ const Carousel2 = () => {
             src: imagen8,
             details: (
                 <div className="entity-details text-left visible">
+                        <div className="notch-contain5 mt-2"></div>
                     <div className="decal-contain">
                         <div className="decal"></div>
                     </div>
@@ -211,7 +212,6 @@ const Carousel2 = () => {
                             <span> SWCE 2023: 10 Things We Learned from the Ahsoka Panel </span>
                         </h3>
                     </a>
-                    <div className="notch-contain"></div>
                 </div>
             ),
         },
@@ -254,23 +254,23 @@ const Carousel2 = () => {
                         </div>
                         <p className="cta-links-container mt-4">
                             <span className="cta-item" data-title="Explore">
-                            <a
-  href="https://www.starwars.com/series/star-wars-ahsoka"
-  role="button"
-  style={{
-    backgroundColor: '#ffdf00',
-    border: 'none',
-    borderRadius: '50px',
-    color: 'black',
-    fontSize: '20px',
-    fontWeight: 'bold',
-    textDecoration: 'none',
-    display: 'inline-block',
-    padding: '10px 40px',
-  }}
->
-  Explore
-</a>
+                                <a
+                                    href="https://www.starwars.com/series/star-wars-ahsoka"
+                                    role="button"
+                                    style={{
+                                        backgroundColor: '#ffdf00',
+                                        border: 'none',
+                                        borderRadius: '50px',
+                                        color: 'black',
+                                        fontSize: '20px',
+                                        fontWeight: 'bold',
+                                        textDecoration: 'none',
+                                        display: 'inline-block',
+                                        padding: '10px 40px',
+                                    }}
+                                >
+                                    Explore
+                                </a>
 
 
                             </span>

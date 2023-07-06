@@ -36,6 +36,7 @@ const CarouselComponent = () => {
       src: imagen1,
       details: (
         <div className="entity-details text-left visible">
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -51,7 +52,6 @@ const CarouselComponent = () => {
               </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -59,6 +59,7 @@ const CarouselComponent = () => {
       src: imagen2,
       details: (
         <div className="entity-details text-left visible">
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -75,7 +76,6 @@ const CarouselComponent = () => {
               </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -83,6 +83,7 @@ const CarouselComponent = () => {
       src: imagen3,
       details: (
         <div className="entity-details text-left visible">
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -99,7 +100,6 @@ const CarouselComponent = () => {
               </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -107,6 +107,7 @@ const CarouselComponent = () => {
       src: imagen4,
       details: (
         <div className="entity-details text-left visible">
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -122,7 +123,6 @@ const CarouselComponent = () => {
               </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -130,6 +130,7 @@ const CarouselComponent = () => {
       src: imagen5,
       details: (
         <div className="entity-details text-left visible">
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -146,7 +147,6 @@ const CarouselComponent = () => {
               </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -154,6 +154,7 @@ const CarouselComponent = () => {
       src: imagen6,
       details: (
         <div className="entity-details text-left visible">
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -170,7 +171,6 @@ const CarouselComponent = () => {
               </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -178,6 +178,7 @@ const CarouselComponent = () => {
       src: imagen7,
       details: (
         <div className="entity-details text-left visible">
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -194,7 +195,6 @@ const CarouselComponent = () => {
               </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -202,6 +202,7 @@ const CarouselComponent = () => {
       src: imagen8,
       details: (
         <div className="entity-details text-left visible">
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -218,7 +219,6 @@ const CarouselComponent = () => {
               </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
         </div>
       ),
     },
@@ -226,6 +226,7 @@ const CarouselComponent = () => {
       src: imagen9,
       details: (
         <div className="entity-details text-left visible">
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -242,7 +243,7 @@ const CarouselComponent = () => {
               </span>
             </h3>
           </a>
-          <div className="notch-contain"></div>
+
         </div>
       ),
     },
