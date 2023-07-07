@@ -2,7 +2,7 @@
   max-height: 100vh;
   overflow: hidden;
   width: 100%;
-  margin-top: 7%;
+  margin-top: 10%;
 }
 
 .carousel .thumbs-wrapper {
@@ -216,34 +216,27 @@
 
 /*HEADER*/
 .carousel1-header {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
   padding: 20px 0;
   text-align: center;
-  z-index: 2;
-  margin-top: 2%;
+ 
 }
-.title1-container {
-  display: inline-block;
-  position: relative;
-  margin-top: 10%;
 
-}
 .title1-text {
   text-align: center;
   color: #ffffff;
-  margin-top: 10%;
+  margin-top: 0%;
   font-size: 20px;
   font-weight: bold;
 }
 .header1-line {
-  position: absolute;
-  top: -50%;
+  position: relative;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-top: 1px solid #fff;
+  border-top: 0.5px solid #fff;
   width: calc(100vw - 40px);
   /* Resta 40px para tener en cuenta el padding horizontal del carousel1-header */
 }
