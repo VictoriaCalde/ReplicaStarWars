@@ -23,10 +23,12 @@
   .horizontal-list a {
     color: white;
     text-decoration: none;
+    
   }
   
   .horizontal-list i {
     margin-right: 5px;
+    
   }
   
   .horizontal {

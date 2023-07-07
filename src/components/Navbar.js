@@ -9,10 +9,6 @@ import { faFacebookF, faInstagram, faYoutube, faTwitter } from '@fortawesome/fre
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-black container-fluid">
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-
       <div className="collapse navbar-collapse mt-2" >
         <a className="navbar-brand text-white" href="https://www.facebook.com/StarWars">
           <FontAwesomeIcon icon={faFacebookF} />
