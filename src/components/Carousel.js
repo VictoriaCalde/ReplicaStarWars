@@ -9,10 +9,10 @@ import imagen4 from "../components/imagenes/disney-gallery-the-mandalorian-s3-mo
 
 const CarouselComponent = () => {
   return (
-    <div className="carousel1-container" style={{ marginTop: '58px' }} >
+    <div className="carousel1-container" style={{ marginTop: "58px" }}>
       <div className="carousel-wrapper">
         <div className="carousel1-header">
-          <div className="title1-container " >
+          <div className="title1-container ">
             <div className="header1-line"></div>
             <span className="title1-text">
               ALL OF YOUR STAR WARS FAVORITES NOW STREAMING ON DISNEY+
@@ -127,10 +127,10 @@ const CarouselComponent = () => {
             <img src={imagen3} alt="Imagen 3" />
             <div className="carousel-overlay overlay-image3">
               <div className="content-title">
-                  <p>Marvel Will Bring</p>
-                  <p>the Obi-Wan Kenobi</p>
-                  <p>Disney+ Series</p>
-                  <p>to Comics</p>
+                <p>Marvel Will Bring</p>
+                <p>the Obi-Wan Kenobi</p>
+                <p>Disney+ Series</p>
+                <p>to Comics</p>
               </div>
               <div className="content-description">
                 <p>

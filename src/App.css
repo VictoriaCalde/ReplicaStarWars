@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .App {
   text-align: center;
   background-color: black;
@@ -24,6 +25,7 @@ main {
   background-position-x: center;
   background-size: 85% 100%;
 }
+
 .landing-page {
   display: flex;
   flex-direction: column;
@@ -36,4 +38,3 @@ main {
   justify-content: center;
   align-items: center;
 }
-

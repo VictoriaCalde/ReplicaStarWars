@@ -223,7 +223,7 @@
   right: 0;
   padding: 20px 0;
   text-align: center;
- 
+
 }
 
 .title1-text {
@@ -233,6 +233,7 @@
   font-size: 20px;
   font-weight: bold;
 }
+
 .header1-line {
   position: relative;
   left: 50%;
@@ -241,10 +242,13 @@
   width: calc(100vw - 40px);
   /* Resta 40px para tener en cuenta el padding horizontal del carousel1-header */
 }
+
 @media (max-width: 768px) {
   .carousel1-container {
-  max-width: 100%;
-  }}
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   .carousel .thumbs-wrapper {
     margin-top: 0;
@@ -260,6 +264,7 @@
     margin-bottom: 1vw;
   }
 }
+
 @media (max-width: 768px) {
   .carousel-overlay .logo-title {
     top: 10%;
@@ -268,6 +273,7 @@
     height: auto;
   }
 }
+
 @media (max-width: 768px) {
   .carousel-overlay .content-description {
     font-size: 2vw;
@@ -280,9 +286,10 @@
     margin-top: 2%;
   }
 }
+
 @media (max-width: 768px) {
   .carousel-overlay .cta-links-container .cta-item .button {
     padding: 0.8em 1.6em;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
   }
 }
