@@ -35,11 +35,11 @@ const Carousel4 = () => {
       src: imagen1,
       details: (
         <div className="entity-details text-left visible">
-        <div className="notch-contain5 mt-2"></div>
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
-          
+
           <a
             href="https://www.starwars.com/video/this-or-hat-indiana-jones-101-and-more"
             className="entity-link title-link show-details"
@@ -47,7 +47,6 @@ const Carousel4 = () => {
             tabIndex="-1"
           >
             <h3 className="title no_focus">
-
               <span> This or Hat, Indiana Jones 101, and More! </span>
             </h3>
           </a>
@@ -58,7 +57,7 @@ const Carousel4 = () => {
       src: imagen2,
       details: (
         <div className="entity-details text-left visible">
-        <div className="notch-contain5 mt-2"></div>
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -70,7 +69,8 @@ const Carousel4 = () => {
           >
             <h3 className="title no_focus">
               <span>
-                Harrison Ford Reflects on Playing Indiana Jones, New Adventures Come to the Disney Parks, and More!
+                Harrison Ford Reflects on Playing Indiana Jones, New Adventures
+                Come to the Disney Parks, and More!
               </span>
             </h3>
           </a>
@@ -81,7 +81,7 @@ const Carousel4 = () => {
       src: imagen3,
       details: (
         <div className="entity-details text-left visible">
-        <div className="notch-contain5 mt-2"></div>
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -103,7 +103,7 @@ const Carousel4 = () => {
       src: imagen4,
       details: (
         <div className="entity-details text-left visible">
-        <div className="notch-contain5 mt-2"></div>
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -114,7 +114,11 @@ const Carousel4 = () => {
             tabIndex="-1"
           >
             <h3 className="title no_focus">
-              <span> Indiana Jones is Back in Action, John Williams Performs, and More! </span>
+              <span>
+                {" "}
+                Indiana Jones is Back in Action, John Williams Performs, and
+                More!{" "}
+              </span>
             </h3>
           </a>
         </div>
@@ -124,7 +128,7 @@ const Carousel4 = () => {
       src: imagen5,
       details: (
         <div className="entity-details text-left visible">
-        <div className="notch-contain5 mt-2"></div>
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -145,7 +149,7 @@ const Carousel4 = () => {
       src: imagen6,
       details: (
         <div className="entity-details text-left visible">
-        <div className="notch-contain5 mt-2"></div>
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -166,7 +170,7 @@ const Carousel4 = () => {
       src: imagen7,
       details: (
         <div className="entity-details text-left visible">
-        <div className="notch-contain5 mt-2"></div>
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -178,7 +182,8 @@ const Carousel4 = () => {
           >
             <h3 className="title no_focus">
               <span>
-                Ahsoka Release Date Announced, Hayden Christensen and Diego Luna Chat, and More!
+                Ahsoka Release Date Announced, Hayden Christensen and Diego Luna
+                Chat, and More!
               </span>
             </h3>
           </a>
@@ -189,7 +194,7 @@ const Carousel4 = () => {
       src: imagen8,
       details: (
         <div className="entity-details text-left visible">
-        <div className="notch-contain5 mt-2"></div>
+          <div className="notch-contain5 mt-2"></div>
           <div className="decal-contain">
             <div className="decal"></div>
           </div>
@@ -206,7 +211,6 @@ const Carousel4 = () => {
         </div>
       ),
     },
-
   ];
 
   return (
